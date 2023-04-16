@@ -1,6 +1,6 @@
 .star {
-    font-size: 50px;
-    margin-right: 10px;
+    font-size: 40px;
+    margin: 10px;
     color: #a9a9a9;
     flex-direction: "row";
   
@@ -11,4 +11,119 @@
     &:hover {
       cursor: pointer;
     }
+}
+
+.comic-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+$modal-bg: rgba(0, 0, 0, 0.5);
+$modal-content-max-width: 500px;
+$modal-content-bg: #fff;
+
+.comic-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1050;
+  background-color: $modal-bg;
+
+  .comic-modal-dialog {
+    margin: 1.75rem auto;
+    width: auto;
+
+    .comic-modal-content {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: $modal-content-max-width;
+      margin: 0 auto;
+      background-color: $modal-content-bg;
+      border-radius: 0.3rem;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
+      .comic-modal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        border-bottom: 1px solid #dee2e6;
+
+        .comic-modal-title {
+          margin-bottom: 0;
+          line-height: 1.5;
+          color: #000;
+        }
+      }
+
+      .comic-modal-body {
+        flex: 1 1 auto;
+        padding: 1rem;
+        height: 300px;
+        overflow: auto;
+      }
+
+      .comic-modal-footer {
+        display: flex;
+        justify-content: flex-end;
+        padding: 0.75rem;
+        background-color: #f8f9fa;
+        border-top: 1px solid #dee2e6;
+        border-bottom-right-radius: 0.3rem;
+        border-bottom-left-radius: 0.3rem;
+
+        .btn-close {
+          margin-left: auto;
+          font-size: 1.5rem;
+          font-weight: 700;
+          line-height: 1;
+          color: #000;
+          opacity: 0.5;
+
+          &:hover {
+            color: #000;
+            opacity: 0.75;
+            text-decoration: none;
+          }
+
+          &:focus {
+            outline: 0;
+            box-shadow: none;
+          }
+        }
+      }
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    text-align: left;
+    font-size: medium;
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+.alert-success {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  opacity: 80%;
+  font-size: x-large;
 }
