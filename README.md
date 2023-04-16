@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# Aplicación de Frontend para Mostrar Comics
+Esta es una aplicación de frontend desarrollada en React que permite a los usuarios ver diferentes cómics y calificarlos en una escala de 1 a 5 estrellas. La aplicación obtiene los datos de los cómics de una API externa y los muestra en una interfaz de usuario amigable.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Instalación
+Para ejecutar la aplicación en tu ordenador local, sigue los siguientes pasos:
 
-## Available Scripts
+1. Clona este repositorio en tu ordenador local.
+2. Abre la carpeta del proyecto en tu terminal y ejecuta  `npm install` para instalar todas las dependencias del proyecto.
+3. Ejecuta el comando `npm start` para iniciar la aplicación en modo desarrollo.
+4. Abre http://localhost:3000 en tu navegador para ver la aplicación.
 
-In the project directory, you can run:
+## Uso
+La aplicación te mostrará un comic con su respetivo título. Para calificar un cómic, simplemente haz clic en el número de estrellas que creas que merece el cómic. La calificación se actualizará automáticamente en la lista de cómics y en la página de detalles del cómic.
 
-### `npm start`
+## Características
+La aplicación tiene las siguientes características:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Mostrar una lista de cómics de una API externa.
+- Mostrar detalles de cada cómic.
+- Calificar cada cómic con una escala de 1 a 5 estrellas.
+- Actualizar la calificación del cómic automáticamente en la lista y en la página de detalles.
+- Diseño atractivo y fácil de usar.
