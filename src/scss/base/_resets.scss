@@ -1,0 +1,14 @@
+.star {
+    font-size: 50px;
+    margin-right: 10px;
+    color: #a9a9a9;
+    flex-direction: "row";
+  
+    &.filled {
+      color: #f5c107;
+    }
+  
+    &:hover {
+      cursor: pointer;
+    }
+}

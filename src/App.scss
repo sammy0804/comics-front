@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+
+  .App-header {
+    background-color: #282c34 !important;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+
+    .App-title{
+      margin-bottom: 15px;
+    }
+
+    .card {
+      max-width: 500px;
+
+      .card-img-bottom {
+        width: 500px;
+        height: 500px;
+        object-fit: scale-down;
+      }
+    }
+  }
+}
+
+
+
